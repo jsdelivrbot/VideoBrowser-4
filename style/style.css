@@ -1,5 +1,5 @@
-body{
-    margin: 0 auto;
+*{
+    box-sizing: border-box;
 }
 
 .search-bar{
@@ -9,6 +9,10 @@ body{
 
 .search-bar input{
     width: 75%;
+}
+
+.search-bar input:focus{
+    background-color: #eee;
 }
 
 .video-item img{
@@ -32,4 +36,8 @@ body{
 
 .embed-resposnive{
     width: 100%;
+}
+
+p{
+    font-size: 12px;
 }

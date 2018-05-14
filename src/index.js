@@ -18,7 +18,7 @@ class App extends Component {
             selectedVideo: null 
         };
 
-        this.videoSearch('surfboards');    
+        this.videoSearch('react js');    
     }
 
     videoSearch(term) {
@@ -40,7 +40,7 @@ class App extends Component {
                     <VideoList 
                         onVideoSelect={selectedVideo => this.setState({selectedVideo})}
                         videos={this.state.videos}/>
-            </div>
+                </div>
         );
     } 
 }

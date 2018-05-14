@@ -1,25 +1,8 @@
-# ReduxSimpleStarter
+# Video Browser Application
+    A video browser using Youtube API to find a interesting us videos.
+The application show us list of five videos searched by us.
+The search engine works automatically which we do not have to accept the entered keywords.
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Application is builded in ReactJS, JavaScript and a little bit of HTML and CSS. 
 
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+:point_right: [Watch live!](https://m-ossolinski.github.io/VideoBrowser/)
