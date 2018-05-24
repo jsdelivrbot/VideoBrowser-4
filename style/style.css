@@ -1,3 +1,12 @@
+html{
+    height: 100vh;
+    background: #582A72;
+}
+
+#container{
+    background: #582A72;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -9,6 +18,7 @@
 
 .search-bar input{
     width: 75%;
+
 }
 
 .search-bar input:focus{
@@ -22,7 +32,7 @@
 .video-detail .details{
     margin-top: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #9774AB;
     border-radius: 4px;
 }
 
@@ -31,7 +41,8 @@
 }
 
 .list-group-item:hover{
-    background-color: #eee;
+    background-color: #9774AB;
+    color: #fff;
 }
 
 .embed-resposnive{
@@ -40,4 +51,9 @@
 
 p{
     font-size: 12px;
+}
+
+.details{
+    background: #764B8E;
+    color: #fff;
 }
